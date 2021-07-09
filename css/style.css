@@ -59,24 +59,19 @@ body{
     line-height: .2 !important
 }
 
-.profile {
-    margin-top: 160px;
-    margin-left: -70px
-}
 
 .profile-pic {
-    margin-top: 90px;
+    margin-top: 70%;
     width: 58px
 }
 
 .cust-name {
+    margin-top: 35%;
+    margin-left: -20%;
     font-size: 18px;
     color:#ffcc13
 }
 
-.cust-profession {
-    font-size: 15px
-}
 
 .items {
     height: 50%;
@@ -89,24 +84,62 @@ body{
     margin: 10px;
     margin-bottom: 20px;
 }
+@media (max-width:1023.98px)
+{
+    .feed-heading{
+        margin-left:32%;
+        z-index: 1;
+        position: relative;
+    }
+    .line{
+        display: none;
+       
+    }
+    .profile-pic{
+        margin-top: 5%;
+         }
+ .cust-name{
+        margin-top: 13%;
+        margin-left: -20%;
+    }
+  
+}
 
-@media (max-width:991.98px) {
+@media (max-width:765.98px)
+{
+    .line{
+       display: none;
+    }
+    .cust-name{
+        margin-top: 84%;
+        margin-left: -75%;
+    }
+   .cust-name#jaya{
+       margin-left: -180%;
+        margin-top: 180%;
+    }
+    .cust-name#jayas{
+        margin-left: -40%;
+        margin-top: 40%;
+    }
+    #sid{
+        margin-left: -53%;
+        margin-top: 60%;
+    }
+}
+@media (max-width:691.98px) {
     .feedback{
         height: 80%;
         width: 98%;
     }
   
      .feed-heading{
-        margin-left:30%;
-        font-size: 20px;
+        margin-left:20%;
+        font-size: 25px;
         color: black;
     }
     .line{
-        width: 13%;
-        background-color: #ffcc13;
-        height: 5px;
-        margin-left: 47%;
-        margin-top: -1%;
+       display: none;
     }
     .padding {
         padding: 1.5rem
@@ -122,32 +155,26 @@ body{
     .feed-card p{
         font-size: 15px
     }
-    .profile{
-        margin-top: 170%;
-    }
-   #jaya{
-       margin-top: 140%;
-   }
-   #jayas{
-       margin-top: -70%;
-   }
-   #sid{
-       margin-top: -40%;
-   }
+   
     .cust-name{
         font-size: 20px;
-        margin-left: -17%;
+        margin-left: -74%;
+    }
+    .cust-name#jayas{
+        margin-top: 17%;
+        margin-left: 0;
+    }
+    #jaya{
+        margin-top: 170%;
+        margin-left: -180%;
+    }
+  
+    #sid{
+        margin-left: -55%;
     }
     .profile-pic {
         margin-top: 0%;
         width: 68px
     }
    
-}
-
-@media (max-width:767.98px) {
-    .padding {
-        padding: 1rem
-    }
-    
 }
